@@ -1,0 +1,934 @@
+*
+{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Header
+{
+    background-color: #2b2925;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8) ),url('images/slider-01.jpg');
+    background-size: cover;
+}
+.navbar
+{
+    font-family:'Roboto', sans-serif;
+}
+.navbar a
+{
+    color: white;
+}
+.navbar a:hover
+{
+    color:rgb(255, 48, 91) !important;
+}
+.fixed-top.scrolled
+{
+    background-color: rgb(85, 85, 85) !important;
+    transition: background-color;
+}
+.navbar-brand
+{
+    font-weight: 900;
+    font-size:1.8rem;
+    color:rgb(255, 48, 91) !important;
+}
+.nav-item
+{
+    margin-top:0.8rem;
+    margin-bottom:0.8rem;
+}
+.nav-link
+{
+font-size: 1rem;
+font-weight: 400;
+letter-spacing: 0.5px;
+padding-right: 1.125rem;
+margin-right: 0.5rem;
+}
+.navbar-toggler
+{
+    color: white !important;
+}
+.Header .Header_body
+{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.Header .Header_body h2
+{
+    color: #ffffff;
+    font-size: 1.375rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+.Header .Header_body h1
+{
+    color:rgb(255, 48, 91);
+    font-size:4.375rem;
+    font-weight:900;
+    text-align: center;
+    font-stretch:100%;
+    line-height:2.6rem;
+    text-size-adjust:100%;
+    margin-bottom: 1.4rem;
+}
+.Header .Header_body p
+{
+    color: white;
+    font-size:1.375rem;
+    padding-bottom:3rem;
+}
+.Header .Header_body p::after
+{   content:"";
+    animation-name: Header_Animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: white;
+    font-size:1.375rem;
+    padding-bottom:3rem;
+}
+@keyframes Header_Animation
+{
+    0%{content: "";}
+    2.7%{content: "|";}
+    5.47%{content: "D|";}
+    8.17%{content: "De|";}
+    10.87%{content: "Des|";}
+    13.57%{content: "Desi|";}
+    16.27%{content: "Desig|";}
+    18.97%{content: "Design|";}
+    21.67%{content: "Designe|";}
+    24.37%{content: "Designer|";}
+    27.07%{content: "Designe|";}
+    29.77%{content: "Design|";}
+    32.47%{content: "Desig|";}
+    35.17%{content: "Desi|";}
+    38.87%{content: "Des|";}
+    40.57%{content: "De|";}
+    43.27%{content: "D|";}
+    45.97%{content: "|";}
+    48.67%{content: "";}
+    51.37%{content: "|";}
+    54.07%{content: "D|";}
+    56.77%{content: "De|";}
+    62.17%{content: "Dev|";}
+    64.9%{content: "Deve|";}
+    67.7%{content: "Devel|";}
+    70.4%{content: "Develo|";}
+    73.1%{content: "Develop|";}
+    75.8%{content: "Develope|";}
+    78.5%{content: "Developer|";}
+    81.2%{content: "Develope|";}
+    83.9%{content: "Develop|";}
+    86.4%{content: "Develo|";}
+    89.1%{content: "Devel|";}
+    91.8%{content: "Deve|";}
+    94.2%{content: "Dev|";}
+    96.7%{content: "De|";}
+    98.7%{content: "D|";}
+    100%{content: "|";}
+}
+.S1
+{
+    font-family:"Open Sans";
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+
+.S1 .ImgPart
+{
+    padding:0.7rem 0rem;
+}
+.S1 .ImgPart .Frame
+{
+    margin: auto;
+    text-align: center;
+    border:solid 4px #544d4d;
+    border-radius: 5px;
+    position: relative;
+}
+.S1 .ImgPart .Frame img
+{
+    width:100%;
+}
+.S1 .ImgPart .Frame .Img_Container
+{
+    position: relative;
+    top: 0.9rem;
+    right:-0.9rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.S1 .ImgPart .Frame .Img_Container .Img_Layer
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    top:100%;
+    opacity: 0;
+    transition-property:all;
+    transition-duration: 0.6s;
+    display: flex;
+    text-align: center;
+}
+.S1 .ImgPart .Frame .Img_Container .Img_Layer .Websites
+{
+align-items: center;
+overflow: auto;
+width:50%;
+margin: auto;
+}
+.S1 .ImgPart .Frame .Img_Container .Img_Layer .Websites .Footer_Website
+{
+    width:25%;
+    float: left;
+}
+.S1 .ImgPart .Frame:hover .Img_Layer
+{
+opacity: 1;
+top:0%;
+}
+.S1 .DescPart .DescP_Header
+{
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    margin-bottom: 0.7rem;
+}
+.S1 .DescPart .DescP_Header .Header_Custom
+{
+    color: red;
+}
+.S1 .DescPart p
+{
+    font-family:Roboto, sans-serif;
+    color:#757371;
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 140%;
+    padding-right:1rem ;
+}
+.S1 .DescPart .DashedLine
+{
+    margin-top: 1.4rem;
+    border:dashed 0.5px #525150;
+    margin-bottom: 1.4rem;
+}
+.S1 .DescPart .DataList ul
+{
+    list-style-type: none;
+}
+.S1 .DescPart .DataList li ,ul
+{
+    padding-top:0 !important;
+    margin-top: 0 !important;
+    padding-bottom:0 !important;
+    margin-bottom: 0 !important;
+}
+.S1 .DescPart .DataList li h1
+{
+    font-family:Roboto, sans-serif;
+    color:rgb(51, 51, 51);
+    font-size:1rem;
+    font-weight: 800;
+    padding-right: 0.1rem;
+}
+.S1 .DescPart .DataList li p
+{
+    font-family:Roboto, sans-serif;
+    color:#757371;
+    font-size:0.9rem;
+    font-weight: 400;
+    line-height: normal !important;
+    padding: 0rem;
+}
+.S1 .DescPart .DataList
+{
+    margin-bottom: 1.1rem ;
+}
+.S1 .DescPart .Desc_Buttons button
+{
+    color: white;
+    background-color:#f53147;
+    font-family:Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight:400;
+    padding:0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 0.7rem;
+    text-align: center;
+    transition-property: background-color;
+    overflow: auto;
+}
+.S1 .DescPart .Desc_Buttons button:hover
+{
+    background-color: red;
+}
+.S2
+{
+background-color: #e3e2de;
+text-align: center;
+padding-top: 50px;
+overflow: auto;
+}
+.S2 .S2_Body
+{
+    overflow: auto;
+    margin: auto;
+    width:85%;
+    margin-top:10px;
+    padding-bottom: 25px;
+
+}
+.S2 .S2_Body .S2_Partition
+{
+    background-color: transparent;
+    float: left;
+    width:25%;
+    padding:25px 10px;
+    font-family:"Source Sans Pro", sans-serif;
+}
+.S2 .S2_Body .S2_Partition img
+{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.S2 .S2_Body .S2_Partition h1
+{
+    color:rgb(51, 51, 51);
+    font-size:22px;
+    font-stretch:100%;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.S2 .S2_Body .S2_Partition p
+{
+
+    color:rgb(85, 85, 85);
+    font-family:Roboto, sans-serif;
+    font-size:16px;
+    font-weight:400;
+    margin-bottom: 40px;
+}
+.S1 .Control_Icon_Desc
+{
+    margin-left: 7px;
+}
+.S2 .S2_Body .S2_Partition .S2_Hover
+{
+    background-color: transparent;
+    padding-top: 40px;
+    padding-bottom:40px;
+    transition:0s background-color;
+}
+.S2 .S2_Body .S2_Partition .S2_Hover:hover 
+{
+    background-color: white;
+} 
+
+.S3
+{
+    padding-top: 30px;
+    background-color: white;
+    padding-bottom: 20px;
+
+}
+.Sections_Head
+{
+    margin-bottom:1.4rem;
+}
+.Sections_Head h1
+{
+    margin-top: 2rem;
+    text-align: center;
+    color:rgb(33, 33, 33);
+    font-family:"Source Sans Pro", sans-serif;
+    font-size:3rem;
+    font-weight:900;
+    line-height:2rem;
+    margin-bottom:15px;
+}
+.S3 .listPort
+{
+    margin: auto !important;
+    margin-top:2rem;
+    margin-bottom: 1.4rem;
+    display:flex;
+    text-align: center;
+}
+.S3 .listPort .childList
+{
+    margin-right: 4%;
+    padding-left: 2.5%;
+}
+.c
+{   margin: auto;
+}
+.S3 .Pics_Part
+{
+    padding-bottom: 1.4rem;
+    margin-bottom: 1.8rem;
+    overflow: auto;
+}
+.S3 .Pics_Part .Partition
+{
+    padding-right:0.9rem;
+    padding-left: 0.9rem;
+    float: left;
+    width: 33.33%;
+}
+.S3 .Pics_Part .Partition .Img_Part
+{
+    position: relative;
+}
+.S3 .Pics_Part .Partition .Img_Part img
+{
+    width: 100%;
+}
+.S3 .Pics_Part .Partition .Img_Part:hover .S3_Layer
+{
+   opacity: 1;
+}
+
+.S3 .Pics_Part .Partition .Img_Part .S3_Layer
+{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:0.2s opacity;
+}
+.S3 .S3_Icon
+{
+    font-size: 1.2rem !important;
+    color:red;
+}
+.S3 .Pics_Part .Partition .Img_Part .S3_Layer .S3_Icon
+{
+    position: absolute;
+    bottom:2%;
+    right:0%;
+}
+.Sections_Head .Small_Line
+{
+    margin:auto;
+    border-top:1px solid tomato;
+    width: 5rem;
+    margin-bottom: 0.4rem;
+}
+.Sections_Head .Big_Line
+{
+    margin:auto;
+    border-top:1px solid tomato;
+    width: 9rem;
+    margin-bottom: 0.4rem;
+}
+.S4
+{
+    margin: auto;
+    background: #f1f1f1;
+    padding:4.3rem 1.8rem;
+}
+.S4_Partition
+{
+    text-align: center;
+
+}
+.S4_Partition h1
+{
+font-family:"Source Sans Pro", sans-serif;
+font-size:1.625rem;
+font-weight:800;
+color:rgb(51, 51, 51);
+margin:0.7rem 0px;
+}
+.S4_Partition p
+{
+    color:rgb(85, 85, 85);
+    font-family:"Source Sans Pro", sans-serif;
+    font-size:1rem;
+    font-weight: 600;
+}
+.S7 
+{
+    width:100%;
+    padding: 3.125rem 0rem;
+}
+
+.S7_Body
+{
+    margin: auto;
+    width:60%;
+    padding-top:0.7rem;
+    padding-bottom:0.7rem;
+}
+.S7_Body .Name_Mail
+{
+overflow:auto;
+}
+.Name_Mail .Name_Mail_Part 
+{
+    width: 50%;
+    float: left;
+    padding:0.7rem;
+}
+.S7_Body input
+{
+    padding:0.7rem 0px;
+    border-radius: 6px;
+    font-family:Roboto, sans-serif;
+    font-size:0.8rem;
+    text-indent: 0.7rem;
+    border:1px #c9c9c9 solid;
+    color: #c9c9c9;
+}
+.Name_Mail .Name_Mail_Part input 
+{
+    width: 100%;
+}
+.S7_Body .Subject 
+{
+    padding:0.7rem;
+}
+.S7_Body .Subject input
+{
+    width:100%;
+}
+.S7_Body .Message
+{
+    padding:0.7rem;
+}
+.S7_Body .Message input
+{
+    width:100%; 
+    padding-bottom:3.125rem;
+}
+.S7_Body button
+{
+    background-color: #ff305b;
+    color: #ffffff;
+    border-color: #ff305b;
+    font-family:Roboto, sans-serif;
+    font-size:0.8rem;
+    font-weight: 450;
+    text-align: center;
+    border-radius: 6px;
+    padding:0.56rem 0.9rem;
+    margin:0.7rem;
+}
+.S7_Body button:hover
+{
+    background-color: red;
+}
+.Footer_Section
+{
+    background-color: #333333;
+    padding-top:2.5rem;
+    padding-bottom: 2.5rem;
+}
+.Footer_Section .Websites
+{
+    display: flex;
+    padding-bottom: 0.7rem;
+    margin: auto;
+    width:10%;
+    justify-content: space-around;
+}
+.Websites .Footer_Website
+{
+    margin-top:2.5rem;
+    margin-bottom: 0.7rem;
+}
+.Websites .Footer_Website img
+{
+    transition-property:background-color;
+}
+.Footer_Icons_color
+{
+    color: white;
+    transition: color;
+}
+.Footer_Icons_color:hover
+{
+color:red;
+}
+.Websites .Footer_Website img:hover
+{
+
+    filter: invert(1) brightness(100%) sepia(100%) saturate(1%);
+}
+.footer_text
+{
+    color:rgb(255, 255, 255);
+    font-family:Roboto, sans-serif;
+    font-size:16px;
+    font-weight:400;
+    margin: auto;
+    text-align: center;
+}
+.footer_text p
+{
+    margin-bottom: 30px;
+}
+.footer_text .Span_Text_Footer
+{
+    color: red;
+}
+.S6 
+{
+    background-color: #e3e2de;
+    padding-top:1.8rem;
+    padding-bottom: 2.8rem;
+}
+.S6 .S6_Body
+{
+    margin: auto;
+    overflow: auto;
+    margin-top:1.8rem;
+}
+.S6_Body .S6_Partition
+{
+    float: left;
+    width:33.33%;
+    padding:0.7rem 1.4rem;
+}
+.S6_Partition .S6_Part_color
+{
+    background-color: white;
+    padding-bottom:1.8rem;
+    margin-bottom: 1.8rem;
+}
+.S6_Partition img,video
+{
+    width: 100%;
+    margin-bottom:0.7rem;
+}
+.S6_Partition h2
+{
+    color:rgb(85, 85, 85);
+    font-family:Roboto, sans-serif;
+    font-size:1rem;
+    font-weight:400;
+    margin-bottom: 0.5rem;
+    margin-left:0.7rem;
+}
+.S6_Partition h1
+{
+    color:rgb(51, 51, 51);
+    font-family:"Source Sans Pro", sans-serif;
+    font-size:1.375rem;
+    font-weight:600;
+    margin-bottom:0.8rem;
+    margin-left:0.7rem;
+}
+.S6_Partition h1:hover
+{
+    color:red;
+}
+.S6_Partition p
+{
+    color:rgb(85, 85, 85);
+    font-family:Roboto, sans-serif;
+    font-size:1rem;
+    font-weight: 400;
+    margin-bottom: 1.1rem;
+    margin-left:0.7rem;
+    line-height:1.6rem;
+}
+.S6_Partition button
+{
+    border: none;
+    margin-left:10px;
+    color:rgb(51, 51, 51);
+    font-family:Roboto, sans-serif;
+    font-size:1rem;
+    text-align: center;
+    font-weight: 400;
+    transition: color;
+    background-color: transparent;
+}
+.S6_Partition button:hover
+{
+   color:red;
+}
+.S6_Partition button:hover .Icon_Control
+{
+    color: red;
+}
+.S6 .Icon_Control i
+{
+    font-family: FontAwesome;
+    content: "f178";
+}
+.S6 .Icon_Control
+{
+    color:rgb(51, 51, 51);
+    transition: color;
+    margin-left: 0.5rem;
+}
+.S5 .S5_Body
+{
+    margin:auto;
+    width:70%;
+    background-color: #e3e2de;
+    height:20rem;
+    overflow: hidden;
+    margin-top:1.4rem;
+    position: relative;
+}
+.S5 .S5_Body .Img_Partition
+{
+    width:20%;
+    background-color: #e3e2de;
+    float: left;
+    padding:1.4rem 1.4rem;
+}
+.S5 .S5_Body::before
+{   
+    content:"";
+    width:12.5rem;
+    height:31.25rem;
+    position: absolute;
+    top:-47%;
+    left:-22%;
+    background-color: red;
+    transform: rotate(45deg);
+}
+.S5 .S5_Body .Img_Partition img
+{
+    width:100%;
+    border-radius: 50%;
+    position: relative;
+    z-index: 33;
+}
+.S5 .S5_Body .Desc_Partition
+{
+    width:80%;
+    background-color: #e3e2de;
+    float: left;
+    padding:2rem 2rem;
+}
+.S5 .S5_Body .Desc_Partition h1
+{
+    color:rgb(51, 51, 51);
+    font-family:"Source Sans Pro", sans-serif;
+    font-size:1.625rem;
+    font-weight:600;
+    margin:1.4rem 0px;
+}
+.S5 .S5_Body .Desc_Partition h2
+{
+    color: #777777;
+    font-size: 0.9rem;
+    font-weight:600;
+    margin-bottom: 0.7rem;
+}
+.S5 .S5_Body .Desc_Partition .S5_Icon
+{
+    color: #777777;
+    margin-right: 0.5rem;
+}
+.S5 .S5_Body .Desc_Partition p
+{
+color:rgb(85, 85, 85);
+font-size: 1rem;
+font-style: italic;
+font-family:Roboto, sans-serif;
+font-weight:400;
+line-height:1.56rem;
+margin-right: 2.5rem;
+margin-bottom:1.4rem;
+}
+.S5 .S5_Body .Desc_Partition .stars_icons 
+{
+    display: flex;
+}
+.S5 .S5_Body .Desc_Partition .stars_icons .S5_Star_Icon_Yellow 
+{
+    color: yellow;
+    width:3%;
+}
+@media screen and (max-width:993px) and (min-width:767px)
+{
+    .S2 .S2_Partition,.S3 .Pics_Part .Partition
+    {
+        width: 50% !important;
+    }
+    .S3 .Pics_Part
+    {
+        padding:2rem !important;
+        margin: auto !important;
+    }
+    .S3 .Pics_Part .Partition
+    {
+        margin:0 !important;
+        padding:1rem 1rem!important;
+    }
+    .Footer_Section .Websites
+    {
+        width:15% !important;
+    }
+    .S6_Body .S6_Partition
+    {
+        width:100% !important;
+        margin-top:2rem !important;
+    }
+    .S6_Part_color
+    {
+        margin: auto !important;
+        width:70% !important;
+    }
+}
+@media (max-width:767px)
+{
+    .Header .navbar .navbar-collapse .nav-item
+    {
+        text-align: center !important;
+        width: 95% !important;
+        margin: auto !important;
+        background-color: rgb(85, 85, 85) !important;
+    }
+    .Header .Header_body h1
+    {
+        font-size: 2.4rem;
+    }
+    .Header .Header_body p
+    {
+        font-size: 1.1rem;
+    }
+    .S1
+    {
+        padding: 2rem 0 !important;
+        margin: 0 !important;
+    }
+    .S1 .Frame
+    {
+        width: 90% !important;
+        border: none !important;
+        margin: 0 !important;
+    }
+    .S1 .DescPart
+    {
+        margin-top:2rem !important;
+    }
+    .S1 .DescPart .Desc_Buttons button
+    { 
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+    .S1 .DescPart .DataList ul
+    {
+        padding: 0 !important;
+    }
+    .S1 .DescPart .DataList ul,.S1 .DescPart .DataList li
+    {
+        width: 100% !important;
+        padding-bottom:0 !important;
+    }
+    .S2 .S2_Partition,.S3 .Pics_Part .Partition
+    {
+        width: 100% !important;
+        margin: 0.5rem 0rem !important;
+        padding: 0 !important;
+    }
+     .Footer_Section .Websites
+    {
+        width:25% !important;
+    }
+    .S3 .Pics_Part .Partition
+    {
+        margin:0 !important;
+        padding:1rem 1rem!important;
+    }
+    .S3 .Pics_Part .Partition .Img_Part
+    {
+        margin: auto;
+        width:90%;
+    }
+    .S3 .listPort .childList
+    {
+        padding:0 !important;
+        margin: 0 !important;
+        width: 33.33% !important;
+    }
+    .Sections_Head h1
+    {
+        font-size: 1.7rem !important;
+    }
+    .S4 .S4_Partition
+    {
+        margin:1rem 0rem !important;
+    }
+    .S7 .Name_Mail .Name_Mail_Part 
+    {
+        width:100% !important;
+    }
+    .S6_Body .S6_Partition
+    {
+        width:100% !important;
+        margin-top:2rem !important;
+    }
+    .S6_Part_color
+    {
+        margin: auto !important;
+        width:85% !important;
+    }
+    .S2
+    {
+        margin:0 !important; 
+        padding: 0 !important;
+    }
+}
+@media (max-width:490px)
+{
+    .S6_Partition
+    {
+        padding-left:0rem !important;
+        padding-right:0rem !important;
+    }
+    .S6_Body
+    {
+        padding-left:0rem !important;
+        padding-right:0rem !important;
+    }
+
+        .S6_Partition h2
+    {
+        font-size:0.8rem;
+    }
+    .S6_Partition h1
+    {
+        font-size:1rem;
+    }
+
+    .S6_Partition p
+    {
+        font-size:0.9rem;
+        
+        line-height:1.2rem;
+    }
+    .S6_Partition button
+    {
+        font-size:0.8rem;
+    }
+    .Name_Mail .Name_Mail_Part ,.Subject,.Message
+    {
+        padding-left:0rem !important;
+        padding-right:0rem !important;  
+    }
+    .footer_text
+    {
+        padding:0rem 1rem !important;
+        font-size:0.8rem;
+    }
+}
