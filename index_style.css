@@ -788,6 +788,12 @@ margin-bottom:1.4rem;
         margin: auto !important;
         width:70% !important;
     }
+    .S5 .S5_Body::before
+    {   
+        width:8rem;
+        height:32rem;
+    }
+
 }
 @media (max-width:767px)
 {
@@ -887,7 +893,49 @@ margin-bottom:1.4rem;
     {
         margin:0 !important; 
         padding: 0 !important;
+    }  
+
+
+
+    .S5 .S5_Body
+    {
+        margin:auto;
+        width:100%;
     }
+    .S5 .S5_Body .Desc_Partition
+    {
+        width: 100%;
+    }
+    .S5 .S5_Body .Img_Partition
+    {
+        padding:0rem;
+    }
+    .S5 .S5_Body::before
+    {   
+        width:8rem;
+        height:30rem;
+    }
+    .S5 .S5_Body .Desc_Partition h1
+    {
+        font-size:1rem;
+    }
+    .S5 .S5_Body .Desc_Partition h2
+    {
+        font-size: 0.7rem;
+    }
+    .S5 .S5_Body .Desc_Partition p
+    {
+    
+    font-size: 0.9rem;
+    line-height:1rem;
+    margin-right: 0rem;
+    margin-bottom:0rem;
+    }
+    .S5 .S5_Body .Desc_Partition .stars_icons .S5_Star_Icon_Yellow 
+{
+    
+    width:8%;
+}
 }
 @media (max-width:490px)
 {
@@ -931,4 +979,19 @@ margin-bottom:1.4rem;
         padding:0rem 1rem !important;
         font-size:0.8rem;
     }
+}
+@media (max-width:465px)
+{
+    .S5 .S5_Body::before
+    {   
+        width:8rem;
+        height:20rem;
+    }
+    .S5 .S5_Body .Desc_Partition .stars_icons .S5_Star_Icon_Yellow 
+    {
+        
+        width:6%;
+        margin-top: 0.5rem;
+    }
+
 }
